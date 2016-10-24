@@ -1,3 +1,27 @@
+# Correr proyecto
+php artisan serve
+
+
+# Instrucciones:
+
+Queremos construir una plataforma de microbloging tipo Twitter, para esto se te han asignado las siguientes tareas
+
+1.  Crea una tabla "posts" con al menos los campos:
+    *   Título
+    *   Slug
+    *   Contenido
+    *   Fecha
+2.  En resources/posts/form encontrarás el esqueleto HTML de un formulario para la creación de un Post, completa la funcionalidad, de tal manera que permirta la creación de un nuevo Post.
+3.  Escribe el código necesario para Validar que:
+    1.  Todos los campos se encuentren presentes
+    2.  Título no sea mayor de 150 caracteres
+    3.  Contenido sea de al menos 40 caracteres
+    4.  Slug sea único y en formato [Slug](https://en.wikipedia.org/wiki/Semantic_URL#Slug)
+4.  Guardar el post en la base de datos
+5.  Retornar (redirección) al listado de Posts que se encuentra en [/blog]({{ url('blog') }})
+6.  Muestra el listado de Posts en la url [/blog]({{ url('blog') }})
+
+----
 # Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
